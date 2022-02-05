@@ -1,0 +1,227 @@
+
+
+        .bg-dark {
+            background-color: #c0636300 !important;
+        }
+        .attention{
+            font-size: 1.60rem;
+            color: darkgreen;
+        }
+
+        /*navbar*/
+        .navbar-expand-sm.navbar-collapse {
+            display: flex !important;
+            flex-basis: auto;
+        }
+
+        .navbar-collapse {
+            flex-grow: 1;
+            align-items: center;
+        }
+
+        .navbar {
+            padding: .4rem .1rem;
+        }
+
+        .brandco {
+            color: darkgreen;
+        }
+
+        .nav-item {
+            background-color: #65d7cc99 !important;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-family: serif;
+        }
+
+        .nav-link:hover {
+            background-color: pink;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: rgb(16 2 232);
+        }
+
+        .dropdown-menu {
+            width: 100%;
+            padding: 0.5rem;
+            background-color: lightcyan;
+            font-family: fangsong;
+        }
+
+        .dropdown-item {
+            padding: 0.35rem 0.5rem;
+            font-weight: 600;
+            color: #05984d;
+            border: 1px dotted #8bc34ab3;
+        }
+
+        /*middle contain*/
+        #bgcontainer {
+            background-image: url("./images/medwall.jpg");
+            border: 1px solid #00000000;
+        }
+
+        .display-4 {
+            color: green;
+            text-shadow:2px 2px  #81f090;
+            font-weight: 700;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 6rem !important;
+        }
+
+        .lead {
+            font-size: 1.45rem;
+            font-weight: 800;
+            color: #8403f9e0;
+        }
+
+        .my-4 {
+            margin-bottom: 0.5rem !important;
+            margin-top: 0.5rem !important;
+        }
+
+        hr {
+            border-top: 3px solid lightseagreen;
+            margin-left: 30%;
+            margin-right: 30%;
+            opacity:0.75;
+        }
+
+        .trustline {
+            color: #f44336;
+            font-size: 2rem;
+        }
+
+        .mb-4 {
+            box-shadow: 12px 8px 5px 0px rgb(31 77 86 / 76%);
+        }
+
+        /*carousel css*/
+        #myCarousel {
+            border: 1px solid #354f5c;
+        }
+
+        carousel-indicators li {
+            opacity: 0.6;
+            width: 40px;
+            height: 7px;
+        }
+        .container-fluid{
+            padding-left:5px;
+            padding-right:5px;
+        }
+        .cl2 {
+            color: #2196f3;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            background-size: 100% 100%;
+        }
+        /*flex-afcaro*/
+        .flex-fill{
+            border:1px solid white;
+        }
+        /*temp.comment*/
+        .flexservice{
+            color:white;
+        }
+        /*icons*/
+        i {
+            padding: 1px;
+            font-size: medium;
+            color: #1f2947;
+        }
+        .ic{
+            font-size:35px;
+        }
+        .bgoffercd{
+            background-image: url("./images/med.jpg");
+            background-size: cover;
+        }
+       /* .offerhead{
+            background-color: #cee7dc8a;
+        }*/
+        .offerheadcd{
+            color:#ff880e;
+            font-size:30px;
+            text-shadow:2px 2px #f0ebeb;
+            font-family: fantasy
+        }
+        /*card*/
+        .card{
+        background-color: #cee7dc8a;
+        border: 1px solid rgb(152 115 183 / 90%);
+        }
+        .card-img-top{
+            border-radius:15px;
+            border:1px solid black;
+        }
+        .card-title{
+            color: #15008b;
+            margin-bottom:0;
+            margin-top: -15px;
+        }
+        .pagen{
+            background: #424a52;
+        }
+        .colortext{ 
+            color:#5beb6e;
+            background:#101718;;
+            }
+        footer {
+            background: #424a52;
+          }
+          .newStyle {
+            color:green !important;
+            text-align: center;
+            font-size: 2rem;
+            text-shadow:2px 2px  #81f090;
+          }
+          .extramessage {
+            background: #d8dfe6;
+            border-color: #545454;
+          }
+          
+          .form-control:focus {
+            background: #212529;
+          }
+          .popup{
+            display:none;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+            background-color: #cee7dc8a;
+            width: 60%;
+            align-items: center;
+            margin-left: 27%;
+            box-shadow: 5px 10px;
+            z-index: 9;
+
+        }
+        /*orderpagecss*/
+        .orderp{
+            color: rgb(185, 60, 223);
+            text-shadow:2px 2px  #ab81f0;
+            font-weight: 700;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .returnhome {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .jumbofull {
+            background-color: #e9ecef;
+        }
+        .table{background-color: #d8dfe6;
+            border-width:4px 1px;
+            border-color: #ffffff;
+        }
+        /*aboutus css*/
+        .mainclass{
+            background-image: url(./images/medwall.jpg);
+            background-size: cover;
+           
+        }
